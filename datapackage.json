@@ -1,0 +1,71 @@
+{
+  "name": "ghana-production-revenues",
+  "title": "",
+  "homepage": "",
+  "version": "0.1.0",
+  "license": "PDDL-1.0",
+  "resources": [
+    {
+      "name": "data",
+      "path": "data/data.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "bytes": 13691,
+      "schema": {
+        "fields": [
+          {
+            "name": "project_name",
+            "type": "string",
+            "description": ""
+          },
+          {
+            "name": "tax_id",
+            "type": "string",
+            "description": ""
+          },
+          {
+            "name": "commodity",
+            "type": "string",
+            "description": ""
+          },
+          {
+            "name": "location",
+            "type": "string",
+            "description": ""
+          },
+          {
+            "name": "region",
+            "type": "string",
+            "description": ""
+          },
+          {
+            "name": "concession_size",
+            "type": "number",
+            "description": ""
+          },
+          {
+            "name": "production_vol",
+            "type": "number",
+            "description": ""
+          },
+          {
+            "name": "year",
+            "type": "integer",
+            "description": ""
+          },
+          {
+            "name": "lat",
+            "type": "number",
+            "description": ""
+          },
+          {
+            "name": "long",
+            "type": "number",
+            "description": ""
+          }
+        ]
+      }
+    }
+  ],
+  "description": ""
+}
